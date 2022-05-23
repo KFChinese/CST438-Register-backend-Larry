@@ -42,8 +42,7 @@ import org.springframework.test.context.ContextConfiguration;
  *  the database repositories are mocked with test data.
  *  
  * Mockmvc is used to test a simulated REST call to the RestController
- * 
- * the http response and repository is verified.
+ * a.
  * 
  *   Note: This tests uses Junit 5.
  *  ContextConfiguration identifies the controller class to be tested
