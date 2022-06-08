@@ -1,4 +1,5 @@
 -- script file to create and load tables for registration service.
+DROP DATABASE IF EXISTS register;
 create schema register;
 
 use register;
@@ -18,6 +19,8 @@ CREATE TABLE `course` (
   `end` date DEFAULT NULL,
   PRIMARY KEY (`course_id`)
 ) ;
+
+
 
 INSERT INTO `course` VALUES 
 (2020,'Fall',30157,1,'BUS 203 - Financial Accounting','We 6:00PM - 7:20PM','506','112','cchou@csumb.edu','2020-08-24','2020-12-13'),
